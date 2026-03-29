@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ครูดวงกมล ช่วยศรี - Rainbow Infographic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Hero Section (Rainbow Theme) -->
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text" data-aos="fade-right">
+                <div class="badge-rainbow">PRIDE IN EDUCATION</div>
+                <h2 class="school-name">โรงเรียนเทศบาลท่าอิฐ เทศบาลเมืองอุตรดิตถ์</h2>
+                <h1>ดวงกมล ช่วยศรี</h1>
+                <p class="eng-name">Duangkamol Chuaisri</p>
+                <div class="position-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <span>ครู วิทยฐานะ ชำนาญการพิเศษ</span>
+                </div>
+                <div class="cta-group">
+                    <a href="#about" class="btn-rainbow">ดูผลงาน <i class="fas fa-arrow-right"></i></a>
+                    <button onclick="copyApplicationText()" class="btn-outline">
+                        <i class="fas fa-copy"></i> คัดลอกข้อมูล
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="zoom-in">
+                <div class="profile-frame">
+                    <img src="ปก.jpg" alt="ดวงกมล ช่วยศรี">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Rainbow Stats Bar -->
+    <div class="container">
+        <div class="stats-bar" data-aos="fade-up">
+            <div class="stats-flex">
+                <div class="stat-box">
+                    <div class="stat-icon"><i class="fas fa-star"></i></div>
+                    <span class="stat-num">17+</span>
+                    <span class="stat-label">ปีประสบการณ์</span>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-icon"><i class="fas fa-heart"></i></div>
+                    <span class="stat-num">Excellent</span>
+                    <span class="stat-label">การจัดการเรียนรู้</span>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <span class="stat-num">Master</span>
+                    <span class="stat-label">เอกหลักสูตรภาษาอังกฤษ</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- Executive Summary Section -->
+        <section id="about">
+            <div class="section-header" data-aos="fade-up">
+                <h2>ข้อมูลส่วนตัว (Executive Summary)</h2>
+                <div class="rainbow-line"></div>
+            </div>
+            <div class="info-grid">
+                <div class="info-card red" data-aos="fade-up">
+                    <div class="card-icon"><i class="fas fa-university"></i></div>
+                    <h3>สังกัดหน่วยงาน</h3>
+                    <p>โรงเรียนเทศบาลท่าอิฐ เทศบาลเมืองอุตรดิตถ์</p>
+                    <p>ความมุ่งมั่นในการพัฒนาเยาวชนอย่างต่อเนื่อง</p>
+                </div>
+                <div class="info-card blue" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>เป้าหมายทางวิชาชีพ</h3>
+                    <p>สร้างสรรค์นวัตกรรมการเรียนรู้ภาษาอังกฤษในยุคดิจิทัล เพื่อยกระดับความสามารถของผู้เรียนให้ทัดเทียมสากล</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education (Rainbow Timeline) -->
+        <section class="education">
+            <div class="section-header" data-aos="fade-up">
+                <h2>ประวัติการศึกษา (Education)</h2>
+                <div class="rainbow-line"></div>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot" style="background: var(--purple);"></div>
+                    <div class="timeline-content">
+                        <h3>ปริญญาโท (M.Ed.)</h3>
+                        <p style="color: var(--purple); font-weight: 600;">เอกหลักสูตรภาษาอังกฤษ</p>
+                        <p>เชี่ยวชาญด้านการพัฒนาหลักสูตรและการนิเทศการสอนภาษาอังกฤษ</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                    <div class="timeline-dot" style="background: var(--blue);"></div>
+                    <div class="timeline-content">
+                        <h3>ปริญญาตรี (B.A.)</h3>
+                        <p style="color: var(--blue); font-weight: 600;">วิชาเอกภาษาอังกฤษ</p>
+                        <p>พื้นฐานความรู้ด้านภาษาและวรรณคดีอังกฤษอย่างลึกซึ้ง</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill bars -->
+        <section>
+            <div class="section-header" data-aos="fade-up">
+                <h2>ความเชี่ยวชาญ (Specialized Skills)</h2>
+                <div class="rainbow-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="zoom-in">
+                    <span>English Proficiency & Teaching</span>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                    <span>Curriculum & Lesson Planning</span>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3>นางสาวดวงกมล ช่วยศรี</h3>
+            <p>โรงเรียนเทศบาลท่าอิฐ เทศบาลเมืองอุตรดิตถ์</p>
+            <p style="margin-top: 20px; opacity: 0.6;">&copy; 2024 Portfolio Presentation. Designed with Pride.</p>
+        </div>
+    </footer>
+
+    <!-- Hidden Data for Copy -->
+    <textarea id="applicationData" style="display:none;">
+ชื่อ-นามสกุล: นางสาวดวงกมล ช่วยศรี (Duangkamol Chuaisri)
+โรงเรียน: เทศบาลท่าอิฐ เทศบาลเมืองอุตรดิตถ์
+ตำแหน่ง: ครู วิทยฐานะ ชำนาญการพิเศษ
+การศึกษา: ปริญญาตรี วิชาเอกภาษาอังกฤษ, ปริญญาโท เอกหลักสูตรภาษาอังกฤษ
+วันเกิด: 07 มิ.ย. 1982
+โทรศัพท์: 082-322-5041
+อีเมล: gaylyja@gmail.com
+ที่อยู่: 146/11 ถนนอินใจมี ต.ท่าอิฐ อ.เมือง จ.อุตรดิตถ์ 53000
+    </textarea>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true });
+
+        function copyApplicationText() {
+            const copyText = document.getElementById("applicationData");
+            copyText.style.display = "block";
+            copyText.select();
+            document.execCommand("copy");
+            copyText.style.display = "none";
+            
+            const alertBox = document.createElement('div');
+            alertBox.className = 'copy-alert';
+            alertBox.innerHTML = '<i class="fas fa-check-circle"></i> คัดลอกข้อมูลเรียบร้อยแล้ว!';
+            document.body.appendChild(alertBox);
+            setTimeout(() => alertBox.remove(), 2500);
+        }
+    </script>
+</body>
+</html>
